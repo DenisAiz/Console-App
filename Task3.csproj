@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="FileInterface\**" />
+    <Compile Remove="PersonalCharacteristics\**" />
+    <EmbeddedResource Remove="FileInterface\**" />
+    <EmbeddedResource Remove="PersonalCharacteristics\**" />
+    <None Remove="FileInterface\**" />
+    <None Remove="PersonalCharacteristics\**" />
+  </ItemGroup>
+
+</Project>
